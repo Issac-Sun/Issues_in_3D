@@ -80,3 +80,9 @@ A60。彼此分开。
 #针对python==3.6
 
 pip install opencv-python==4.3.0.38
+
+---
+conda activate 4d
+export CUDA_HOME=/usr/local/cuda-11.7
+export LD_LIBRARY_PATH=/usr/local/cuda-11.7/lib64:$LD_LIBRARY_PATH
+export PATH=/usr/local/cuda-11.7/bin:$PATH
