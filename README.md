@@ -73,3 +73,10 @@ A57。触摸别人的口袋。
 A58。握手。
 A59。走向彼此。
 A60。彼此分开。
+
+---
+解决opencv-python PEP517 ERROR: Could not build wheels for opencv-python which use PEP 517 and cannot
+
+#针对python==3.6
+
+pip install opencv-python==4.3.0.38
